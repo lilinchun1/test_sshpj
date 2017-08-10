@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header class="ed-head">
+    <h1>auto initial investigation</h1>
+</header>
+<article class="ed-mainbox">
+    <nav class="ed-nav">
+        <div class="ed-nav-item">
+            scheduling services
+        </div>
+        <div class="ed-nav-item active"><!--激活状态加.active-->
+            environment delivery
+        </div>
+    </nav>
+    <section class="ed-mainbox-left">
+        <header class="ed-mainbox-left-title">
+            <h2>environment delivery</h2>
+            <h3>initial investigation checkout</h3>
+        </header>
+        <div class="ed-mainbox-left-item">
+            <label class="ed-label">server:</label>
+            <input class="ed-input" type="text" placeholder="Type server name or site url">
+        </div>
+        <div class="ed-mainbox-left-ctrl">
+            <button class="ed-btn green">generate report</button>
+            <button class="ed-btn" disabled>extract report</button><!--禁用状态加 disabled属性-->
+        </div>
+    </section>
+    <section class="ed-mainbox-right">
+        <h2>server details</h2>
+        <div class="ed-mainbox-right-detailbox">
+            <div class="ed-mainbox-right-detailbox-left">
+                <div class="boxline">
+                    <span class="detailbox-tt">server name:</span>
+                    <span class="detailbox-info">VRTVW7172.dir.svc.accentiure.com</span>
+                </div>
+                <div class="boxline">
+                    <span class="detailbox-tt">environment:</span>
+                    <span class="detailbox-info">Production</span>
+                </div>
+                <div class="boxline">
+                    <span class="detailbox-tt">netbios domain name:</span>
+                    <span class="detailbox-info">DIR</span>
+                </div>
+                <div class="boxline">
+                    <span class="detailbox-tt">location:</span>
+                    <span class="detailbox-info">US-East-Amazaon-CIO-192</span>
+                </div>
+            </div>
+            <div class="ed-mainbox-right-detailbox-right">
+                <div class="boxline">
+                    <span class="detailbox-tt">server status:</span>
+                    <span class="detailbox-info">Operational</span>
+                </div>
+                <div class="boxline">
+                    <span class="detailbox-tt">ip address:</span>
+                    <span class="detailbox-info">10.69.1.123</span>
+                </div>
+                <div class="boxline">
+                    <span class="detailbox-tt">state:</span>
+                    <button class="ed-btn2 green">running</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+</body>
+</html>
